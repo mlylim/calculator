@@ -1,0 +1,40 @@
+body{
+    background-color: #353940;
+    padding-top: 50px;
+}
+#button-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+    width: 582px;
+    margin: auto;
+}
+button {
+    background-color: #3e92a3;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#e6e6e6;
+    border: 1px solid black;
+    font-size: 48px;
+    flex: 1 1 0px
+}
+.buttonNumber:hover{
+        background-color: #8bbdc7   
+}
+.buttonMath {
+    background-color:#ff5335;
+}
+.buttonMath:hover{
+    background-color:#ff8671;
+}
+#inputBox {
+    display: flex;
+    overflow: hidden;
+    justify-content:flex-end;
+    width: 582px;
+    margin: auto;
+    background-color: #3e92a3;
+    font-family:Arial, Helvetica, sans-serif;
+    height: 60px;
+    color: #e6e6e6;
+    border: 1px solid black
+}
